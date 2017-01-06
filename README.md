@@ -1,2 +1,7 @@
 # varios-deviva
-deviva2016
+poner 
+
+
+runApp("/home/fou/Desktop/SAT/chamba/test/") 
+
+ip y host 
