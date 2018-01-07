@@ -1,0 +1,12 @@
+name: KnapsackApp
+title: KnapsackApp
+username:
+account: fou-foo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 254495
+bundleId: 1165298
+url: https://fou-foo.shinyapps.io/KnapsackApp/
+when: 1515305113.48642
+asMultiple: FALSE
+asStatic: FALSE

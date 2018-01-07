@@ -31,7 +31,7 @@ simulaUnb <- function( x)
 #	paste0("State", ": ", row$State,"<br />", "UFO Reports", ": ", row$UFOReports,"<br />", "Total Bases", ": ", row$Total, "<br />", "Air Force Bases", ": ", row$AirForce,"<br />")
 #}
 
-data <- read.csv('/home/fou/Downloads/MAV_CONSOLIDADOMODELO%20-%20copia.csv')
+data <- read.csv('C:\\Users\\fou-f\\Desktop\\KnapsackApp\\MAV_CONSOLIDADOMODELO - copia.csv')
 d <- data %>% select(monto_sol_dev ,ejercicio, periodo)
 
 table(d$periodo)
@@ -93,13 +93,14 @@ shinyServer(
 		
 		
 		#ggvis plot build
-		#mergeddata %>% 
-		#	ggvis( x = ~Total, y = ~UFOReports) %>% 
-		#	layer_points(fill := "blue", size := input_size, key := ~id) %>%
-		#	add_tooltip(all_values, "hover") %>%
-		#	layer_model_predictions(model = input_model, se = TRUE) %>%
-		#	add_axis("x", title = "Number of Military Bases", orient = "bottom", title_offset = 50) %>%
-		#	add_axis("y", title = "Num of UFO Reports", orient = "left", title_offset = 50) %>%
+	#	mergeddata %>% 
+	#		ggvis( x = ~Total, y = ~UFOReports) %>% 
+	#		layer_points(fill := "blue", size := input_size, key := ~id) %>%
+	#		add_tooltip(all_values, "hover") %>%
+	#		layer_model_predictions(model = input_model, se = TRUE) %>%
+	#		add_axis("x", title = "Number of Military Bases", orient = "bottom", title_offset = 50) %>%
+	#
+	#	add_axis("y", title = "Num of UFO Reports", orient = "left", title_offset = 50) %>%
 		
 		
 		
